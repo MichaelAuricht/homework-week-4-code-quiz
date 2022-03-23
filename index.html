@@ -27,105 +27,31 @@
                     <button id="startquiz" class="execute" type="button">Start Quiz</button>
                 </div>
 
-<!-- QUESTION ONE -->
-                <div id="pagetwo" class="page">     
-                    <h2>1. Commonly used data types DO NOT include:</h2>
-                    <ul>
-                        <li>
-                            <button id="strings-f" class="btn">1. strings</button>
-                        </li>
-                        <li>
-                            <button id="booleans-one-f" class="btn">2. booleans</button>
-                        </li>
-                        <li>
-                            <button id="alerts-t" class="btn">3. alerts</button> <!--CORRECT ANSWER-->
-                        </li>
-                        <li>
-                            <button id="numbers-one-f" class="btn">4. numbers</button>
-                        </li>
-                    </ul>
-                </div>
 
-<!-- QUESTION TWO -->
-                <div id="pagethree" class="page">     
-                    <h2>2. The condition in an if / else statement is enclosed within ___.</h2>
-                    <ul>
-                        <li>
-                            <button id="quotes-f" class="btn">1. quotes</button>
-                        </li>
-                        <li>
-                            <button id="curly-one-f" class="btn">2. curly brackets</button>
-                        </li>
-                        <li>
-                            <button id="parent-t" class="btn">3. parentheses</button> <!--CORRECT ANSWER-->
-                        </li>
-                        <li>
-                            <button id="square-one-f" class="btn">4. square brackets</button>
-                        </li>
-                    </ul>
-                </div>
 
-<!-- QUESTION THREE -->
-                <div id="pagefour" class="page">     
-                    <h2>3. Arrays in Javascript can be used to store ___.</h2>
-                    <ul>
-                        <li>
-                            <button id="numbers-two-f" class="btn">1. numbers & strings</button>
-                        </li>
-                        <li>
-                            <button id="arrays-f" class="btn">2. other arrays</button>
-                        </li>
-                        <li>
-                            <button id="booleans-two-f" class="btn">3. booleans</button>
-                        </li>
-                        <li>
-                            <button id="all-t" class="btn">4. all of the above</button> <!--CORRECT ANSWER-->
-                        </li>
-                    </ul>
-                </div>
 
-<!-- QUESTION FOUR -->
-                <div id="pagefive" class="page">     
-                    <h2>4. String values must be enclosed within ___ when being assigned to variables.</h2>
-                    <ul>
-                        <li>
-                            <button id="commas-f" class="btn">1. commas</button>
-                        </li>
-                        <li>
-                            <button id="curly-two-f" class="btn">2. curly brackets</button>
-                        </li>
-                        <li>
-                            <button id="quotes-t" class="btn">3. quotes</button> <!--CORRECT ANSWER-->
-                        </li>
-                        <li>
-                            <button id="parent-f" class="btn">4. parentheses</button>
-                        </li>
-                    </ul>
-                </div>
+<div id="questionanswerarea" class="page" style="display:none;">
 
-<!-- QUESTION FIVE -->
-                <div id="pagesix" class="page">     
-                    <h2>5. A very useful tool used during development and debugging for printing content to the debugger is:</h2>
-                    <ul>
-                        <li>
-                            <button id="js-t" class="btn">1. JavaScript</button> <!--CORRECT ANSWER-->
-                        </li>
-                        <li>
-                            <button id="terminal-f" class="btn">2. terminal / bash</button>
-                        </li>
-                        <li>
-                            <button id="leaps-f" class="btn">3. for leaps</button>
-                        </li>
-                        <li>
-                            <button id="console-f" class="btn">4. console.log</button> 
-                        </li>
-                    </ul>
-                </div>
+	<h2 id="pagequestion">Question will appear here.</h2>
+
+	<ul id="pageanswers">
+		<li><button id="commas-f" class="btn">1. loading...</button></li>
+	</ul>
+	
+	<h3 id="resultarea"></h3>
+
+
+</div>
+
+
+
+
+
 
 <!-- END OF QUIZ -->
-                <div id="pageseven" class="page">    
+                <div id="highscorearea" class="page" style="display:none;">    
                     <h2>Finished!</h2>
-                    <p>Your final score is</p>
+                    <p>Your final score is <span id="finalscore">0</span></p>
                     <form>
                         <label for="fname">
                             Enter Initials:

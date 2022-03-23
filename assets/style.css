@@ -82,7 +82,7 @@ li {
 
 .btn {
   text-align: justify;
-  width: 30%;
+  min-width: 45%;
   font-weight: normal;
   font-size: 15px;
   border: none;

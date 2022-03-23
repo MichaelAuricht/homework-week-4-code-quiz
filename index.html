@@ -12,13 +12,13 @@
 <!-- HIGHSCORES AND TIMER -->
     <header>
         <button id="highscores" type="button">View Highscores</button>
-        <div id="countdown"></div><div>Time:</div>
+        <div id="wrongalert">-5</div><div id="countdown"></div><div>Time:</div>
     </header>
     <main>
         <div class="container">
             <div class="center">
 <!-- CODING QUIZ CHALLENGE -->
-                <div id="pageone" class="page">            
+                <div id="pageone" class="page" style="display:block;">            
                     <h1>Coding Quiz Challenge</h1>
                     <p> 
                         Try to answer the following code-related questions within the time limit. 
@@ -50,7 +50,7 @@
 
 <!-- END OF QUIZ -->
                 <div id="highscorearea" class="page" style="display:none;">    
-                    <h2>Finished!</h2>
+                    <h2 id="endalert">Finished!</h2>
                     <p>Your final score is <span id="finalscore">0</span></p>
                     <form>
                         <label for="fname">
@@ -66,13 +66,9 @@
         </footer> -->
 
 <!-- HIGH SCORES -->
-                <div id="pageeight" class="page"> 
+                <div id="viewscorearea" class="page" style="display:none;"> 
                     <h1>Highscores</h1>
-                    <li>
-                        <ul>
-                            <div class="initials">AB</div>
-                        </ul>
-                    </li>
+                    <ul id="initials" class="initials"></ul>
                     <button id="back" class="execute">Go Back</button>
                     <button id="clear" class="execute">Clear Highscores</button>
                 </div>

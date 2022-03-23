@@ -16,6 +16,12 @@ header div {
   float: right;
 }
 
+#wrongalert {
+  visibility: hidden;
+  float: right;
+  color: red;
+}
+
 h1 {
   text-align: center;
   padding-top: 200px;
@@ -42,10 +48,6 @@ p {
 .page {
   display: block;
   position: relative;
-}
-
-#pagetwo, #pagethree, #pagefour, #pagefive, #pagesix, #pageseven, #pageeight {
-  display: none;
 }
 
 .container {

@@ -20,6 +20,6 @@ at the end of the quiz they have the option to store their score under their ini
 
 they can also access the high scores page at any time via the button in the top left corner.
 
---SCREENSHOT OF APP IN ACTION--
+![Getting Started](./assets/code-quiz-1.jpg)
 
---LINK TO DEPLOYED PAGE--
+https://michaelauricht.github.io/homework-week-4-code-quiz/
